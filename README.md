@@ -36,8 +36,8 @@ This bar chart displays the number of installed apps in each category utilizing 
 ![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/63d7c929b5372e90c7bcb164250a69455c22eced/App%20installs%20by%20category.png)
 This bar chart shows the average app prices between each category incorporating groupby, mean, and sort functions. We found that the two highest average app prices come from the medical and business categories. 
 
-***Insights Found:*** <br>
+## Insights Found:
 These insights can help stock analysts who are looking to invest in companies based on their app downloads, to determine any correlation to a company's annual revenue, ad campaign, and more. Also, to help android users determine which app category has the most or least amount of installs and apps with good ratings with reasonable price tag. There are several ideas to expand the analysis of our project. 
 
-***Possible Further Analysis:*** <br>
+## Possible Further Analysis:
 We could further analyze how each app category compares to one another, which app categories hold the most success in attracting users, providing weighted rating information and further analysis on app purchase information.
