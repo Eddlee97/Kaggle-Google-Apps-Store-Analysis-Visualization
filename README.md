@@ -4,6 +4,9 @@
 ## Project Overview:
 The goal of this project is to perform statistical analysis and create data visualization on Google Apps Store. 
 
+***Data Source:*** <br>
+https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
+
 ***Data Cleansing Process:*** <br>
 Cleansed the dataset based on Price column using z-scores <br>
 1. Calculated standard deviation and mean on Price column for all Paid apps <br>
