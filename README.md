@@ -30,10 +30,10 @@ Cleansed the dataset based on Price column using z-scores <br>
 For the statistical analyses, we wanted to look for any outliers and calculate what the threshold was while focusing on the price and rating columns; furthermore we wanted to calculate the standard deviation and the mean of the price column for all paid apps. After that, we assigned a z-score for each row to determine if an app has a z-score that is greater than 4 standard deviations. The apps that meet this criteria were considered outliers and were removed from the dataset. 
 
 ## Data Visualization
-![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/6940246032eeef937a0c67fb733298307dcb651b/Average%20app%20price%20by%20category.png)
+![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/d4aa3d873ce5c322f146b293adffe360bb036eb1/Data%20Visualization/Average%20app%20price%20by%20category.png)
 This bar chart displays the number of installed apps in each category utilizing a for loop to loop through the cleaned dataset on “App Name”, “Category”, and “Maximum Installs” columns to identify the category that has the highest number of installs.  We applied a max function in the for loop to perform an iteration for each row grouping by category. We calculated a division by one million for each row in the “Maximum Installs” column using million as a unit so that the dataset is more comprehensible. Then, we implemented a sort function to organize from highest to lowest installs. From this analysis, we found that the highest install category is “Tools – Google Play service” with more than 12000+ million installs while the lowest is “Events – Ticketmaster” with only 14+ million installs.
 
-![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/63d7c929b5372e90c7bcb164250a69455c22eced/App%20installs%20by%20category.png)
+![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/d4aa3d873ce5c322f146b293adffe360bb036eb1/Data%20Visualization/App%20installs%20by%20category.png)
 This bar chart shows the average app prices between each category incorporating groupby, mean, and sort functions. We found that the two highest average app prices come from the medical and business categories. 
 
 ## Insights Found:
