@@ -24,7 +24,7 @@ Cleansed the dataset based on Price column using z-scores <br>
 - Largest difference in favor of Free apps:
   - Category: Dating (-1.01)
 
-![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/5bf680b47074353b118d50570cebcee043011d25/Apps%20Rating%20Diff%20(Free%20vs%20Paid).png)
+![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/ab0b566312b72c59e2660a6a09677ff270f2dcfc/Data%20Visualization/Apps%20Rating%20Diff%20(Free%20vs%20Paid).png)
 
 ***Statistical Analysis Summary:*** <br>
 For the statistical analyses, we wanted to look for any outliers and calculate what the threshold was while focusing on the price and rating columns; furthermore we wanted to calculate the standard deviation and the mean of the price column for all paid apps. After that, we assigned a z-score for each row to determine if an app has a z-score that is greater than 4 standard deviations. The apps that meet this criteria were considered outliers and were removed from the dataset. 
