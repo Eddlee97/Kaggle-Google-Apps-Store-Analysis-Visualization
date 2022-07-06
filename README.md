@@ -9,19 +9,19 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 ***Data Cleansing Process:*** <br>
 Cleansed the dataset based on Price column using z-scores <br>
-1. Calculated standard deviation and mean on Price column for all Paid apps <br>
+1. Calculated standard deviation and mean on Price column for all paid apps <br>
 2. If z-score for app was greater than 4 standard deviations, we removed paid app due to its price being an outlier. 296 rows were removed <br>
 3. Dataset was already formatted properly (i.e. dates, uppercase) <br>
 4. Dropped unnecessary columns ('app_id', 'minimum_android', 'developer_id', 'developer_website', 'developer_email', 'privacy_policy', 'ad_supported', 'in_app_purchases', 'editors_choice') <br>
-5. Created two new dataframes, Paid apps and Free apps
+5. Created two new dataframes, paid apps and free apps
 
 ***Rating Comparison:*** <br>
-- If Rating is positive, Paid apps have a higher average rating compare to Free
+- If Rating is positive, paid apps have a higher average rating compare to free
 - Paid apps have a higher rating in 29 categories
 - Free apps have a higher rating in 19 categories
-- Largest difference in favor of Paid apps:
+- Largest difference in favor of paid apps:
   - Category: Libraries & Demo (0.98)
-- Largest difference in favor of Free apps:
+- Largest difference in favor of free apps:
   - Category: Dating (-1.01)
 
 ![Alt text](https://github.com/Eddlee97/Kaggle-Google-Apps-Store-Analysis-Visualization/blob/ab0b566312b72c59e2660a6a09677ff270f2dcfc/Data%20Visualization/Apps%20Rating%20Diff%20(Free%20vs%20Paid).png)
