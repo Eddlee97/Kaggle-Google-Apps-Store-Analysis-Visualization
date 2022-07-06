@@ -16,7 +16,7 @@ Cleansed the dataset based on Price column using z-scores <br>
 5. Created two new dataframes, paid apps and free apps
 
 ***Rating Comparison:*** <br>
-- If Rating is positive, paid apps have a higher average rating compare to free
+- If rating is positive, paid apps have a higher average rating compare to free
 - Paid apps have a higher rating in 29 categories
 - Free apps have a higher rating in 19 categories
 - Largest difference in favor of paid apps:
