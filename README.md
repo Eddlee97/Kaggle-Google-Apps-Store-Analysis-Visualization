@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 ***Data Cleansing Process:*** <br>
 Cleansed the dataset based on Price column using z-scores <br>
 1. Calculated standard deviation and mean on Price column for all Paid apps <br>
-2. If z-score for app was greater than 4 standard deviations, we removed said app due to its price being an outlier. 296 rows were removed <br>
+2. If z-score for app was greater than 4 standard deviations, we removed paid app due to its price being an outlier. 296 rows were removed <br>
 3. Dataset was already formatted properly (i.e. dates, uppercase) <br>
 4. Dropped unnecessary columns ('app_id', 'minimum_android', 'developer_id', 'developer_website', 'developer_email', 'privacy_policy', 'ad_supported', 'in_app_purchases', 'editors_choice') <br>
 5. Created two new dataframes, Paid apps and Free apps
