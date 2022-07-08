@@ -2,7 +2,7 @@
 - Class: CIS 9650 Programming for Analytics (Python)
 
 ## Project Overview:
-The goal of this project is to perform statistical analysis and create data visualization on Google Apps Store, then store them into a database.
+The goal of this project is to perform statistical analysis and create data visualization on Google Apps Store, then store them into a database system.
 
 ***Data Source:*** <br>
 https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
